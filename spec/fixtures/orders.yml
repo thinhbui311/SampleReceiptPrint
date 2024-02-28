@@ -1,0 +1,9 @@
+first_order:
+  total_price: 0
+  total_tax: 0
+second_order:
+  total_price: 0
+  total_tax: 0
+third_order:
+  total_price: 0
+  total_tax: 0

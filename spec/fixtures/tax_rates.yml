@@ -1,0 +1,6 @@
+other_category:
+  rate: 0.1
+  category: "other"
+imported_category:
+  rate: 0.05
+  category: "imported products"

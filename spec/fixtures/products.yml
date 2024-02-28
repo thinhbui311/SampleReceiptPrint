@@ -1,0 +1,14 @@
+book:
+  name: "book"
+music_cd:
+  name: "music cd"
+chocolate_bar:
+  name: "chocolate bar"
+imported_box_of_chocolates:
+  name: "imported box of chocolates"
+imported_bottle_of_perfume:
+  name: "imported bottle of perfume"
+bottle_of_perfume:
+  name: "bottle of perfume"
+packet_of_headache_pills:
+  name: "packet of headache pills"

@@ -1,0 +1,21 @@
+book:
+  product: book
+music_cd:
+  product: music_cd
+  tax_rate: other_category
+chocolate_bar:
+  product: chocolate_bar
+imported_box_of_chocolates:
+  product: imported_box_of_chocolates
+  tax_rate: imported_category
+imported_bottle_of_perfume_1:
+  product: imported_bottle_of_perfume
+  tax_rate: other_category
+imported_bottle_of_perfume_2:
+  product: imported_bottle_of_perfume
+  tax_rate: imported_category
+bottle_of_perfume:
+  product: bottle_of_perfume
+  tax_rate: other_category
+packet_of_headache_pills:
+  product: packet_of_headache_pills

@@ -1,0 +1,45 @@
+first_order_1:
+  product: book
+  order: first_order
+  unit_price: 12.49
+  quantity: 1
+first_order_2:
+  product: music_cd
+  order: first_order
+  unit_price: 14.99
+  quantity: 1
+first_order_3:
+  product: chocolate_bar
+  order: first_order
+  unit_price: 0.85
+  quantity: 1
+second_order_1:
+  product: imported_box_of_chocolates
+  order: second_order
+  unit_price: 10.00
+  quantity: 1
+second_order_2:
+  product: imported_bottle_of_perfume
+  order: second_order
+  unit_price: 47.50
+  quantity: 1
+third_order_1:
+  product: imported_bottle_of_perfume
+  order: third_order
+  unit_price: 27.99
+  quantity: 1
+third_order_2:
+  product: bottle_of_perfume
+  order: third_order
+  unit_price: 18.99
+  quantity: 1
+third_order_3:
+  product: packet_of_headache_pills
+  order: third_order
+  unit_price: 9.75
+  quantity: 1
+third_order_4:
+  product: imported_box_of_chocolates
+  order: third_order
+  unit_price: 11.25
+  quantity: 1
