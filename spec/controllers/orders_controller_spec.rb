@@ -22,6 +22,8 @@ RSpec.describe OrdersController, type: :controller do
         expect(music_cd["total_price"]).to eq 16.49
         expect(chocolate_bar["quantity"]).to eq 1
         expect(chocolate_bar["total_price"]).to eq 0.85
+        expect(json_response["sales_taxes"]).to eq 1.50
+        expect(json_response["total"]).to eq 29.83
       end
     end
 
@@ -37,6 +39,8 @@ RSpec.describe OrdersController, type: :controller do
         expect(imported_box_of_chocolates["total_price"]).to eq 10.50
         expect(imported_bottle_of_perfume["quantity"]).to eq 1
         expect(imported_bottle_of_perfume["total_price"]).to eq 54.65
+        expect(json_response["sales_taxes"]).to eq 7.65
+        expect(json_response["total"]).to eq 65.15
       end
     end
 
@@ -58,6 +62,8 @@ RSpec.describe OrdersController, type: :controller do
         expect(packet_of_headache_pills["total_price"]).to eq 9.75
         expect(imported_box_of_chocolates["quantity"]).to eq 1
         expect(imported_box_of_chocolates["total_price"]).to eq 11.85
+        expect(json_response["sales_taxes"]).to eq 6.70
+        expect(json_response["total"]).to eq 74.68
       end
     end
   end
